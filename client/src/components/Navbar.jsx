@@ -31,7 +31,6 @@ const Navbar = () => {
         <Link onClick={()=> {scrollTo(0,0); setIsOpen(false)}} to='/movies'>Movies</Link>
         <Link onClick={()=> {scrollTo(0,0); setIsOpen(false)}} to='/about-us'>About us</Link>
         <Link onClick={()=> {scrollTo(0,0); setIsOpen(false)}} to='/contact-us'>Contact us</Link>
-        <Link onClick={()=> {scrollTo(0,0); setIsOpen(false)}} to='/favorites'>Favorites</Link>
        {favoriteMovies.length > 0 && <Link onClick={()=> {scrollTo(0,0); setIsOpen(false)}} to='/favorite'>Favorites</Link>}
       </div>
 
