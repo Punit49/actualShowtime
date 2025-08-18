@@ -1,4 +1,4 @@
-# QuickShow - Movie Booking Application
+# Showtime - Movie Booking Application
 
 A full-stack movie booking application built with React, Node.js, and MongoDB. Users can browse movies, book tickets, and manage their bookings.
 
@@ -117,7 +117,7 @@ A full-stack movie booking application built with React, Node.js, and MongoDB. U
 ## 📁 Project Structure
 
 ```
-quickshow/
+showtime/
 ├── client/                 # React frontend
 │   ├── src/
 │   │   ├── components/     # Reusable components
