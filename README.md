@@ -1,4 +1,4 @@
-# Showtime - Movie Booking Application
+# Showtime - Movie ticket Booking Application
 
 A full-stack movie booking application built with React, Node.js, and MongoDB. Users can browse movies, book tickets, and manage their bookings.
 
