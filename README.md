@@ -34,87 +34,9 @@ A full-stack movie booking application built with React, Node.js, and MongoDB. U
 - **Clerk** - Authentication
 - **Inngest** - Background jobs
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js (version 18 or higher)
-- MongoDB (local or cloud instance)
-- Git
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Punit49/actualShowtime.git
-   cd actualShowtime
-   ```
-
-2. **Install dependencies**
-   ```bash
-   # Install server dependencies
-   cd server
-   npm install
-   
-   # Install client dependencies
-   cd ../client
-   npm install
-   ```
-
-3. **Environment Setup**
-
-   Create `.env` file in the `server` directory:
-   ```env
-   # MongoDB Connection
-   MONGODB_URI=mongodb://localhost:27017
-   
-   # TMDB API Key (Get from https://www.themoviedb.org/settings/api)
-   TMDB_API_KEY=your_tmdb_api_key_here
-   
-   # Stripe Configuration (Get from https://dashboard.stripe.com/apikeys)
-   STRIPE_SECRET_KEY=your_stripe_secret_key_here
-   STRIPE_WEBHOOK_SECRET=your_stripe_webhook_secret_here
-   
-   # Email Configuration (SMTP settings)
-   SMTP_USER=your_smtp_user_here
-   SMTP_PASS=your_smtp_password_here
-   SENDER_EMAIL=your_sender_email_here
-   
-   # Clerk Configuration (Get from https://dashboard.clerk.com)
-   CLERK_SECRET_KEY=your_clerk_secret_key_here
-   ```
-
-   Create `.env` file in the `client` directory:
-   ```env
-   # API Base URL
-   VITE_BASE_URL=http://localhost:3000
-   
-   # TMDB Image Base URL
-   VITE_TMDB_IMAGE_BASE_URL=https://image.tmdb.org/t/p/w500
-   
-   # Clerk Configuration (Get from https://dashboard.clerk.com)
-   VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key_here
-   
-   # Currency
-   VITE_CURRENCY=USD
-   ```
-
-4. **Run the application**
-   ```bash
-   # Start the server (from server directory)
-   cd server
-   npm run server
-   
-   # Start the client (from client directory, in a new terminal)
-   cd client
-   npm run dev
-   ```
-
-5. **Access the application**
+**Access the application**
    - Frontend: http://localhost:5173
-   - Backend API: http://localhost:3000
-
-## 📁 Project Structure
+   - Backend API: http://localhocalhost:300 📁 Project Structure
 
 ```
 showtime/
@@ -148,9 +70,7 @@ showtime/
 ### Bookings
 - `POST /api/booking/create` - Create booking
 - `GET /api/booking/user/:userId` - Get user bookings
-- `GET /api/booking/all` - Get all bookings (admin)
-
-### Users
+- `GET /api/booking/all` - Get all bookings (adminadmin# Users
 - `GET /api/user/profile` - Get user profile
 - `PUT /api/user/profile` - Update user profile
 
